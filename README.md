@@ -79,7 +79,6 @@ This front-end relies on the following API endpoints:
          "Pdescription": "High-end gaming laptop",
          "price": 1500.0
        },
-       ...
      ]
      ```
 
