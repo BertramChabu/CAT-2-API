@@ -1,8 +1,6 @@
 # CAT-2-API
 This is the CAT 2 API project for API
-Here is a `README.md` file to explain the functionality and setup of the provided HTML front-end for Product Management:
 
----
 
 # **Product Management Front-End**
 
@@ -77,8 +75,8 @@ This front-end relies on the following API endpoints:
      ```json
      [
        {
-         "product_name": "Laptop",
-         "product_description": "High-end gaming laptop",
+         "Pname": "Laptop",
+         "Pdescription": "High-end gaming laptop",
          "price": 1500.0
        },
        ...
@@ -90,8 +88,8 @@ This front-end relies on the following API endpoints:
    - Accepts a JSON object:
      ```json
      {
-       "product_name": "Laptop",
-       "product_description": "High-end gaming laptop",
+       "Pname": "Laptop",
+       "Pdescription": "High-end gaming laptop",
        "price": 1500.0
      }
      ```
@@ -106,7 +104,7 @@ To use a different API base URL, locate the following lines in the `<script>` se
 
 ```javascript
 const response = await fetch('http://127.0.0.1:8000/store/product/');
-const response = await fetch('http://127.0.0.1:8000/store/product/create', {
+const response = await fetch('http://127.0.0.1:8000/store/product/create/', {
 ```
 
 Replace `http://127.0.0.1:8000` with your API base URL.
@@ -129,12 +127,4 @@ If products are not displayed, ensure:
 - The API is returning data in the expected format.
 - The back-end server is running correctly.
 
----
 
-## **Acknowledgments**
-
-This front-end was created as a lightweight solution for interacting with a REST API and demonstrates fundamental CRUD operations.
-
----
-
-Let me know if you need additional assistance!
