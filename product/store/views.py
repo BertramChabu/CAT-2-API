@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import Product
 from .serializer import ProductSerializer
+from django.shortcuts import render
 
 #Product View
 @api_view(['GET'])
@@ -21,3 +22,8 @@ def createProduct(request):
         sData.save()
         return Response(sData.data, status=status.HTTP_201_CREATED)
     return Response(sData.errors, status-status.HTTP_400_BAD_REQUEST)
+
+
+@api_view(['GET'])
+def home(request):
+    return render(request, 'index.html')
