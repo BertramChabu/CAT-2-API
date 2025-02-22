@@ -1,6 +1,8 @@
 # Product DJango API
 
 This is an API project for product management.
+---
+![alt text](image.png)
 
 ## **Product Management Front-End**
 
