@@ -38,6 +38,7 @@ Ensure the following are set up before running the front-end:
   - Endpoints:
     - `GET /store/product/` - Fetch all products.
     - `POST /store/product/create/` - Add a new product.
+    - `GET /api/home/` - Access the home view.
 
 ### **2. File Structure**
 
@@ -92,6 +93,15 @@ This front-end relies on the following API endpoints:
      }
      ```
 
+3. **GET /api/home/**:
+   - New API endpoint for accessing the home view.
+   - Returns a welcome message:
+     ```json
+     {
+       "message": "Welcome to the Product Management API"
+     }
+     ```
+
 ---
 
 ## **Customization**
@@ -103,6 +113,7 @@ To use a different API base URL, locate the following lines in the `<script>` se
 ```javascript
 const response = await fetch('http://127.0.0.1:8000/store/product/');
 const response = await fetch('http://127.0.0.1:8000/store/product/create/', {
+const response = await fetch('http://127.0.0.1:8000/api/home/');
 ```
 
 Replace `http://127.0.0.1:8000` with your API base URL.
@@ -136,3 +147,4 @@ If you'd like to contribute, feel free to fork this repository and submit pull r
 ## **License**
 
 This project is open-source and available under the MIT License.
+
