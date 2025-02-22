@@ -1,15 +1,12 @@
 # CAT-2-API
-This is the CAT 2 API project for API
 
+This is the CAT 2 API project for product management.
 
-# **Product Management Front-End**
+## **Product Management Front-End**
 
-This is a simple HTML, CSS, and JavaScript-based front-end for managing products. It interacts with a REST API to perform the following operations:
+This front-end application is built with HTML, CSS, and JavaScript and interacts with a REST API to manage products. The key functionalities include:
 
-- Display a list of products.
-- Add new products to the list.
-
-## **Features**
+### **Features**
 
 1. **Product Form**:
    - Allows users to input product details:
@@ -78,7 +75,7 @@ This front-end relies on the following API endpoints:
          "Pname": "Laptop",
          "Pdescription": "High-end gaming laptop",
          "price": 1500.0
-       },
+       }
      ]
      ```
 
@@ -126,4 +123,14 @@ If products are not displayed, ensure:
 - The API is returning data in the expected format.
 - The back-end server is running correctly.
 
+---
 
+## **Contributing**
+
+If you'd like to contribute, feel free to fork this repository and submit pull requests.
+
+---
+
+## **License**
+
+This project is open-source and available under the MIT License.
