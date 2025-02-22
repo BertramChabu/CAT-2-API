@@ -1,6 +1,6 @@
-# CAT-2-API
+# Product DJango API
 
-This is the CAT 2 API project for product management.
+This is an API project for product management.
 
 ## **Product Management Front-End**
 

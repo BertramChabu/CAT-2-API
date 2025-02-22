@@ -6,6 +6,8 @@ function newList(data) {
     ul.classList.add("list-group");
     ul.classList.add("mt-5");// Bootstrap class for list
     ul.classList.add("col-lg-4")
+    ul.classList.add("col-md-6")
+    ul.classList.add("col-sm-12")
 
     const li1 = document.createElement("li");
     li1.textContent = `ID: ${data.id}`;

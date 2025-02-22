@@ -10,12 +10,18 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+      .anime{
+        height: auto;
+      }
+    </style>
   </head>
   <body>
 
-    <div class="container bg-dark">
+    <div class="container-fluid p-5 bg-dark min-vh-100">
+      <h1 class="text-white text-center">Product Django API Management</h1>
       <button class="btn btn-outline-danger mt-5" id="fetch">Fetch</button>
-      <div class="anime row p-5" id="anime"></div>
+      <div class="anime row p-5 bg-success rounded mt-5" id="anime"></div>
 
     </div>
     <script src="index.js"></script>
